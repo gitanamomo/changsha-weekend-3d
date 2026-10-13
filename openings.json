@@ -1,0 +1,20 @@
+{
+  "schema": "game-room.opening-schedule.v1",
+  "roomId": "changsha-weekend",
+  "primaryArrival": {
+    "openingId": "arrival",
+    "exception": "户外广场主入口为开放通路，没有门扇"
+  },
+  "openings": [
+    {
+      "id": "arrival",
+      "type": "door",
+      "wall": "chapter-entry",
+      "widthMeters": 3,
+      "heightMeters": 3.2,
+      "depthMeters": 2,
+      "thresholdMeters": 0,
+      "destination": "柏悦到达广场"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "source": "../长沙周末随行指南-v10.html",
+  "dates": [
+    "2026-11-21",
+    "2026-11-22"
+  ],
+  "status": "仅转录用户提供指南，未核实实时开放、预约和交通",
+  "geography": "艺术化章节地图，不是实地导航；跨景点用接驳转场，不伪装连续步行距离",
+  "routes": {
+    "classic": [
+      "hotel",
+      "academy",
+      "island",
+      "oldstreet",
+      "night",
+      "museum",
+      "return"
+    ],
+    "easy": [
+      "hotel",
+      "museum",
+      "island",
+      "dufu",
+      "dinner",
+      "return"
+    ],
+    "shaoshan": [
+      "hotel",
+      "transfer",
+      "square",
+      "residence",
+      "memorial",
+      "hotel",
+      "return"
+    ]
+  },
+  "stops": [
+    {
+      "id": "hotel",
+      "name": "长沙柏悦 / IFS",
+      "time": "序章 · 城市抵达",
+      "task": "从酒店礼宾台领取旅行手册，练习移动、转视角和互动。",
+      "scene": "高层酒店、两座城市塔楼、到达广场"
+    },
+    {
+      "id": "academy",
+      "name": "岳麓书院",
+      "time": "周六上午 · 千年文脉",
+      "task": "沿书院前庭漫步，找到文脉印章。",
+      "scene": "山脚、庭院、青瓦书院、秋树"
+    },
+    {
+      "id": "island",
+      "name": "橘子洲",
+      "time": "周六下午 · 湘江北去",
+      "task": "沿江心步道看两岸，收集山水印章。",
+      "scene": "长洲、江水、开阔步道与雕塑轮廓"
+    },
+    {
+      "id": "oldstreet",
+      "name": "潮宗街",
+      "time": "周六傍晚 · 老城新生",
+      "task": "走过麻石街巷，寻找老公馆故事。",
+      "scene": "麻石路、砖墙小楼、暖色灯笼"
+    },
+    {
+      "id": "night",
+      "name": "黄兴路 / 坡子街",
+      "time": "周六夜晚 · 人间烟火",
+      "task": "体验臭豆腐、糖油粑粑、茶饮与湘菜四个互动点。",
+      "scene": "霓虹步行街、小吃摊、派出所外观"
+    },
+    {
+      "id": "museum",
+      "name": "湖南博物院",
+      "time": "周日上午 · 返程前可选",
+      "task": "在展馆故事点阅读马王堆与湖湘文明，领取最后一枚印章。",
+      "scene": "室内展厅、帛画展板、文物展柜"
+    },
+    {
+      "id": "return",
+      "name": "取行李与返程",
+      "time": "周日午后 · 旅程终章",
+      "task": "返回柏悦取行李，选择长沙南站或黄花机场完成旅行。",
+      "scene": "酒店礼宾点、站台与机场章节入口"
+    }
+  ],
+  "extraStops": {
+    "dufu": "杜甫江阁",
+    "dinner": "湘菜晚餐",
+    "transfer": "韶山游客换乘中心",
+    "square": "毛泽东广场",
+    "residence": "毛泽东同志故居",
+    "memorial": "纪念馆"
+  },
+  "optionalSunday": true,
+  "excludedFromMainline": [
+    "张家界",
+    "衡山",
+    "岳阳楼",
+    "小东江",
+    "凤凰古城",
+    "湖南第一师范旧址",
+    "天心阁"
+  ]
+}

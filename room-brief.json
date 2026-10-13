@@ -1,0 +1,75 @@
+{
+  "schema": "game-room.room-brief.v1",
+  "roomId": "changsha-weekend",
+  "family": "gameplay-room",
+  "purpose": "按v10经典长沙路线，操控卡通旅人游览、阅读故事、收集印章并完成返程",
+  "runtimeSurface": "纯HTML/CSS/JS单文件；原生WebGL深度渲染，Canvas回退；无外部依赖；localStorage；Safari/iOS待实机验收",
+  "boundsMeters": [
+    120,
+    20,
+    90
+  ],
+  "hero": {
+    "id": "traveler",
+    "role": "可控制卡通小人偶，圆头、珊瑚橙外套、旅行背包",
+    "reservedBoundsMeters": [
+      1.8,
+      2.4,
+      1.8
+    ]
+  },
+  "symmetry": {
+    "mode": "none",
+    "order": 1,
+    "appliesTo": [
+      "建筑局部左右对称"
+    ],
+    "exceptions": [
+      "城市地理与章节线路为有意非对称"
+    ]
+  },
+  "circulation": {
+    "description": "章节内步行，章节间公交/地铁/出租接驳；最窄路3米；入口无遮挡；碰撞边界与卡住恢复",
+    "minimumClearanceMeters": 3
+  },
+  "productionCamera": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "location": [
+      0,
+      4,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ],
+    "verticalFovDegrees": 55
+  },
+  "performanceBudget": {
+    "maxSceneTriangles": 80000,
+    "maxVLowBytes": 3000000,
+    "maxHighTextureBytes": 8000000
+  },
+  "creditBudget": {
+    "maximumCredits": 0,
+    "approvalRequired": true
+  },
+  "environment": {
+    "type": "none",
+    "identity": "",
+    "source": "",
+    "assignmentKey": ""
+  },
+  "artifacts": {
+    "floorPlan": "plans/route.svg",
+    "reflectedCeilingPlan": "plans/ceiling.svg",
+    "planMetadata": "plan-metadata.json",
+    "wallElevations": [],
+    "visualTarget": "preview.html",
+    "openingContactSheet": "plans/openings.svg"
+  }
+}

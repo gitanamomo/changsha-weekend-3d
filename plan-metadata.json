@@ -1,0 +1,30 @@
+{
+  "source": "itinerary.json",
+  "projection": "路线关系示意，不是实际地理测绘或最终几何正投影",
+  "lowerLayer": "plans/route.svg",
+  "ceilingLayer": "plans/ceiling.svg",
+  "pending": [
+    "最终场景几何俯视轮廓",
+    "室内墙立面",
+    "真实开口遮罩追踪",
+    "角色参考图确认"
+  ],
+  "navigation": {
+    "speedMetersPerSecond": 3,
+    "playerRadiusMeters": 0.35,
+    "clearanceMeters": 3,
+    "recovery": "返回当前章节安全点"
+  },
+  "cameraModes": [
+    "第三人称跟随",
+    "第一人称"
+  ],
+  "controls": {
+    "desktop": "WASD / 方向键移动，拖动转视角，E互动，V切视角",
+    "mobile": "左侧触控摇杆，右侧拖动看向，互动/视角按钮"
+  },
+  "saveKey": "changsha-weekend-v1",
+  "sourcePreserved": true,
+  "schema": "game-room.plan-metadata.v1",
+  "roomId": "changsha-weekend"
+}

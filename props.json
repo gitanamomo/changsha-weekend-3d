@@ -1,0 +1,38 @@
+{
+  "schema": "game-room.prop-manifest.v1",
+  "roomId": "changsha-weekend",
+  "generation": {
+    "provider": "procedural-planned",
+    "apiModel": "meshy-5",
+    "pricingSource": "",
+    "pricingVerifiedAt": "not-applicable-no-paid-generation",
+    "creditsPerTexturedTask": 0,
+    "hardCreditCeiling": 0,
+    "maxChargedAttemptsPerAsset": 2
+  },
+  "assets": [
+    {
+      "id": "traveler",
+      "function": "主角",
+      "dimensionsMeters": [
+        0.65,
+        1.65,
+        0.5
+      ],
+      "attachmentFace": "feet-bottom",
+      "semanticFront": "+Z",
+      "class": "hero",
+      "imagePrompt": "独立完整卡通旅行人偶，圆头，珊瑚橙外套、米白裤子、绿色背包，三分之四视角，白底，无文字，无场景，四肢分离，脚底可站立",
+      "targetPolycount": 2500,
+      "rejectionCriteria": [
+        "脚底悬浮",
+        "四肢融合",
+        "背包遮挡脸部"
+      ],
+      "approval": {
+        "status": "pending"
+      },
+      "method": "proposed procedural geometry"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "雾城回声",
+  "date": "2026-10-13",
+  "source": "../长沙周末随行指南-v10.html",
+  "entry": "雾城回声.html",
+  "sha256": "3e50fc8f79ef9927d48987c01be61ad43d41445b1885cafe34b0fd5f99ff509f",
+  "stage": "local-playable-puzzle",
+  "chapters": 7,
+  "cost": 0,
+  "engine": "原生WebGL，程序几何，无外部依赖",
+  "saveKey": "changsha-fog-puzzle-v1",
+  "validation": "雾城回声-验证.json",
+  "preserved": [
+    "长沙漫游记.html",
+    "../长沙周末随行指南-v10.html"
+  ],
+  "limitations": [
+    "Safari/iPhone及设备性能未验收",
+    "全通关是浏览器内按帧物理移动与真实UI互动，非人工完整游玩",
+    "艺术化原创场景，非真实旅游导航",
+    "非Meshy/Blender正式资产管线，没有据此宣称技能Function/Form/Runtime全部验收",
+    "未进行Git提交、推送或线上部署"
+  ],
+  "review": {
+    "visual": "待用户试玩反馈",
+    "runtime": "Chromium检查；Safari/iPhone待验证"
+  },
+  "version": "visual-refinement-v2",
+  "characterValidation": "雾城回声-质感优化验证.json",
+  "baseline": "雾城回声-v1.html",
+  "refinements": [
+    "细化拾光人模型、平滑法线、独立服装与面部细节",
+    "呼吸、步态、跳跃、潜行、搬箱姿态",
+    "实时3D主菜单与人物近景",
+    "亮度/操作提示设置与独立偏好保存",
+    "冷色轮廓灯、暖提灯与接触阴影",
+    "手机菜单构图与核心按钮布局"
+  ]
+}

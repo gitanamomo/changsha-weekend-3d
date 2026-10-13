@@ -1,0 +1,40 @@
+{
+  "schema": "game-room.milestone-reviews.v1",
+  "roomId": "changsha-weekend",
+  "function": {
+    "status": "design-confirmed",
+    "approvedBy": "user",
+    "approvedAt": "2026-10-13",
+    "evidence": [
+      "preview.html",
+      "itinerary.json",
+      "plans/route.svg",
+      "plans/openings.svg"
+    ],
+    "strangestElement": "章节缩尺地图可能误导实际地理距离，必须标注艺术化与接驳转场",
+    "notes": "用户确认经典路线与当前小人偶风格；这是设计确认，不冒充Meshy/Blender全部Function验收。零付费程序几何实现。"
+  },
+  "form": {
+    "status": "pending",
+    "approvedBy": "",
+    "approvedAt": "",
+    "evidence": [
+      "renders/desktop.png",
+      "renders/academy.png",
+      "renders/night.png",
+      "renders/mobile.png"
+    ],
+    "strangestElement": "",
+    "notes": "本地可玩版本已制作，等待用户外观审阅；没有Blender导出或Meshy付费资产。"
+  },
+  "runtime": {
+    "status": "pending",
+    "approvedBy": "",
+    "approvedAt": "",
+    "evidence": [
+      "validation.json"
+    ],
+    "strangestElement": "",
+    "notes": "Chromium验证通过，Safari/iPhone及用户运行确认未完成；未发布。"
+  }
+}

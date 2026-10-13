@@ -1,0 +1,29 @@
+{
+  "schema": "game-room.final-report.v1",
+  "roomId": "changsha-weekend",
+  "stage": "local-playable-delivery",
+  "source": "../长沙周末随行指南-v10.html",
+  "runtime": "长沙漫游记.html",
+  "sha256": "7c6a2fb3c9e8a75afdea2f70b3b87c52d5c5ab34c501a61ea899954af5c49b70",
+  "gates": {
+    "function": false,
+    "form": false,
+    "runtime": false
+  },
+  "designApproval": {
+    "approvedBy": "user",
+    "date": "2026-10-13",
+    "scope": "路线与卡通人偶视觉方向"
+  },
+  "validation": "validation.json",
+  "paidCost": 0,
+  "sceneCount": 14,
+  "routeCount": 3,
+  "limitations": [
+    "未进行真实Safari/iPhone验收",
+    "原指南真实交通和预约未重新核实",
+    "技能验证器Meshy强制字段不适配零付费程序几何，未伪造通过",
+    "未初始化Git、未提交、未推送、未发布"
+  ],
+  "cleanup": "测试浏览器关闭，无本次开发服务器或Ollama启动，无临时生成脚本保留"
+}

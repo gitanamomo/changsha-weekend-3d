@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "browser": "Chromium",
+  "checks": [
+    "主菜单实时人物渲染",
+    "人物近景、退出后镜头恢复和进度保持",
+    "亮度与提示设置保存恢复",
+    "390/320px菜单与游玩无横向溢出，核心按钮均在视口内",
+    "WebGL无错误、无脚本错误"
+  ],
+  "character": {
+    "triangles": 10448,
+    "smooth": 52,
+    "parts": 58,
+    "gpuError": 0
+  },
+  "errors": [],
+  "safari": "未完成真实Safari/iPhone验证"
+}
